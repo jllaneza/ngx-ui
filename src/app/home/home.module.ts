@@ -5,6 +5,7 @@ import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 
 import { MatRadioModule } from '@angular/material';
+import { WalletCardComponent } from '../components/wallet-card/wallet-card.component';
 
 @NgModule({
   imports: [
@@ -13,7 +14,8 @@ import { MatRadioModule } from '@angular/material';
     MatRadioModule
   ],
   declarations: [
-    HomeComponent
+    HomeComponent,
+    WalletCardComponent,
   ]
 })
 export class HomeModule { }

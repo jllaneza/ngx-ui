@@ -1,0 +1,22 @@
+:host {
+  display: block;
+  padding: 0.5rem;
+}
+
+:host article {
+  display: inline-block;
+  width: 100%;
+  padding: 16px;
+  border-radius: 5px;
+  background-color: #fff;
+  text-align: left;
+  box-shadow: 0 4px 8px 0 rgba(48,82,120,.08);
+  transition: box-shadow .2s ease-in-out;
+  &:hover {
+    box-shadow: 0 5px 15px 0 rgba(48,82,120,.2);
+  }
+}
+
+:host header {
+  display: flex;
+}
